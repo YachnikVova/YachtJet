@@ -1,0 +1,43 @@
+:root {
+ --main-color: rgb(251, 251, 251);
+ --dark-color: rgb(4, 3, 6);
+ --grey-color: rgb(14, 24, 35);
+ --green-color: rgb(27, 65, 75);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul,
+ol {
+  list-style-type: none;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol{
+  margin: 0;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.02en;
+  color: var(--main-color);
+  background-color: var(--grey-color);
+}
+ 
+.logo {
+  font-weight: 500;
+    font-size: 20px;
+    letter-spacing: -0.03em;
+    color: #1b414b;
+}
